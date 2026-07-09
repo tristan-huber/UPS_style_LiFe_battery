@@ -106,8 +106,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.69140625,
-      "y": 0.6412337662337662,
+      "x": 0.6467486818980668,
+      "y": 0.75,
       "uniqueID": "id-21834",
       "ioValues": [
         {
@@ -279,6 +279,22 @@
           "currentEquation": "0.6"
         }
       ]
+    },
+    {
+      "atomType": "Tag",
+      "x": 0.7275922671353251,
+      "y": 0.3375,
+      "uniqueID": "id-21922",
+      "name": "10ahBattery",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "tags": [
+        "10ahBattery"
+      ]
     }
   ],
   "allConnectors": [
@@ -320,7 +336,7 @@
     {
       "ap2Name": "geometry",
       "ap1ID": "id-21834",
-      "ap2ID": "id-21869"
+      "ap2ID": "id-21922"
     },
     {
       "ap2Name": "geometry",
@@ -356,6 +372,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-21918",
       "ap2ID": "id-21830"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-21922",
+      "ap2ID": "id-21869"
     }
   ],
   "unitsKey": "Inches",
